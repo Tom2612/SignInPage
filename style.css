@@ -17,9 +17,8 @@ main {
 }
 .banner {
     width: 35%;
-    /* border: 1px solid black; */
     background: url('https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1862&q=80');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .form {
@@ -66,9 +65,9 @@ input {
     border: 1px solid #E5E7EB;
     border-radius: 5px;
 }
-input:focus {
-    border: 1px solid blue;
-    box-shadow: 1px 1px 0px 0px #c1c1c1;
+input:focus-visible {
+    outline: 1px solid blue;
+    box-shadow: 3px 3px 10px 2px #c1c1c1;
 }
 .error{
     border: 1px solid red;
